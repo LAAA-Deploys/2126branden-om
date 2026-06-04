@@ -212,13 +212,7 @@
       </div>
 
       <div style="flex:1; min-height:0; position:relative; background:var(--ink); overflow:hidden;">
-        <img src="images/hero.jpg" alt="2126–2136 Branden Street rendering" style="position:absolute; inset:0; width:100%; height:100%; object-fit:cover; object-position: center center;"/>
-        <div style="position:absolute; right: 0; bottom: 0; z-index: 5;
-                    font-family: var(--mono); font-size: 16px; letter-spacing: 0.22em; text-transform: uppercase;
-                    color: rgba(255,255,255,0.92); background: rgba(14,31,51,0.65);
-                    padding: 8px 14px; border-left: 2px solid var(--gold);">
-          Conceptual Rendering
-        </div>
+        <img src="images/hero.jpg" alt="2126–2136 Branden Street rendering" style="position:absolute; inset:0; width:100%; height:100%; object-fit:contain; object-position: center center;"/>
       </div>
 
       <div style="height: 180px; padding: 32px 110px 36px; box-sizing:border-box;
@@ -444,15 +438,14 @@
 
   <!-- 9 — RENDERING · DUSK STREET VIEW -------------------------------- -->
   <section data-label="09 Rendering · Street">
-    <div style="position:absolute; inset:0;">
-      <img src="images/rendering-dusk.jpg" class="img-fill" alt="2126–2136 Branden Street rendering, dusk street view"/>
-      <div style="position:absolute; left:0; right:0; top:0; height: 320px;
-                  background: linear-gradient(to bottom, rgba(14,31,51,0.78), rgba(14,31,51,0));
-                  padding: 60px 110px; box-sizing:border-box; color: var(--paper);">
-        <div style="font-family: var(--mono); font-size: 24px; letter-spacing: 0.2em; text-transform: uppercase; color:#c5d2e3; margin-bottom: 16px;">Design · Street View</div>
-        <h2 style="font-family: var(--serif); font-weight: 300; font-size: 80px; line-height: 1; margin: 0; letter-spacing: -0.01em;">4 stories of contemporary infill.</h2>
+    <div style="position:absolute; inset:0; background: var(--ink); display:flex; flex-direction:column; padding: 56px 80px 40px;">
+      <div style="display:flex; justify-content:space-between; align-items:baseline; margin-bottom: 20px;">
+        <div class="eyebrow" style="color:#9bb0cc;"><span class="dot"></span><span>Design · Street View</span></div>
+        <div style="font-family: var(--mono); font-size: 22px; letter-spacing: 0.18em; color: #8497b0; text-transform: uppercase;">2126–2136 Branden St · Echo Park</div>
       </div>
-      <div style="position:absolute; right: 0; bottom: 0; z-index: 5; font-family: var(--mono); font-size: 16px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.92); background: rgba(14,31,51,0.65); padding: 8px 14px; border-left: 2px solid var(--gold);">Conceptual Rendering</div>
+      <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center;">
+        <img src="images/rendering-dusk.jpg" alt="2126–2136 Branden Street rendering, dusk street view" style="max-width:100%; max-height:100%; width:auto; height:auto; object-fit: contain; display:block;"/>
+      </div>
     </div>
   </section>
 
@@ -465,7 +458,6 @@
       </div>
       <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; position:relative;">
         <img src="images/rendering-front.jpg" alt="Front elevation rendering" style="max-width:100%; max-height:100%; width:auto; height:auto; object-fit: contain; display:block;"/>
-        <div style="position:absolute; right: 0; bottom: 0; z-index: 5; font-family: var(--mono); font-size: 16px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.92); background: rgba(14,31,51,0.65); padding: 8px 14px; border-left: 2px solid var(--gold);">Conceptual Rendering</div>
       </div>
     </div>
   </section>
@@ -479,7 +471,6 @@
       </div>
       <div style="flex:1; min-height:0; display:flex; align-items:center; justify-content:center; position:relative;">
         <img src="images/rendering-aerial.jpg" alt="Aerial massing rendering" style="max-width:100%; max-height:100%; width:auto; height:auto; object-fit: contain; display:block;"/>
-        <div style="position:absolute; right: 0; bottom: 0; z-index: 5; font-family: var(--mono); font-size: 16px; letter-spacing: 0.22em; text-transform: uppercase; color: rgba(255,255,255,0.92); background: rgba(14,31,51,0.65); padding: 8px 14px; border-left: 2px solid var(--gold);">Conceptual Rendering</div>
       </div>
     </div>
   </section>
