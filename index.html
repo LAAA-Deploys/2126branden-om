@@ -863,7 +863,7 @@
 <script>
   document.querySelectorAll('deck-stage > section').forEach(function (s, i, all) {
     if (i === 0) return; // no page number on the cover
-    var label = String(i + 1).padStart(2, '0') + ' / ' + all.length;
+    var label = String(i + 1).padStart(2, '0');
     var footer = s.querySelector('.footer');
     if (footer) {
       var sp = document.createElement('span');
